@@ -1,0 +1,26 @@
+.FormControl {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 40%;
+    height: 25px;
+    border: none;
+    color: #cecece;
+    font-size: 15px;
+    background-color: transparent;
+    background-image: linear-gradient(#ebebeb,#ebebeb);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom;
+    transition: background-size 400ms ease;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-size: 100% 25px;
+}

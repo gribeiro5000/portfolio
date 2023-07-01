@@ -1,0 +1,23 @@
+.Info {
+    margin-top: auto;
+    display: flex;
+    color: #cecece;
+    height: 276px;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.List li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.List li:hover {
+    color: #a3a3a3;
+    cursor: pointer;
+}

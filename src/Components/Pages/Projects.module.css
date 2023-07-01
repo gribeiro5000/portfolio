@@ -1,0 +1,75 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 700px;
+    animation: fadeIn ease 2s;
+    max-height: 73vh;
+    overflow: scroll;
+}
+
+.Container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-top: solid 1px #cecece;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.Info h2 {
+    font-size: 30px;
+}
+
+.Linguagem {
+    display: flex;
+    flex-direction: row;
+}
+
+.Item {
+    margin: 0px 10px;
+    border: solid 1px #cecece;
+    background-color: #cecece;
+    padding: 5px;
+}
+
+.Info a {
+    padding: 5px;
+    margin-right: auto;
+    background-image: linear-gradient(#cecece,#cecece);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: bottom;
+    transition: background-size 400ms ease;
+}
+
+.Info a:hover {
+    background-size: 100% 27px;
+    color: black;
+}
+
+.Image {
+    width: 40%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -1,0 +1,49 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    max-height: 100px;
+}
+
+.List {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #cecece;
+}
+
+.Item {
+    
+    background-image: linear-gradient(#cecece,#cecece);
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    background-position: center bottom;
+    transition: background-size 400ms ease;
+    font-weight: 300;
+}
+
+.Item a {
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.Item:hover{
+    background-size: 50% 2px;   
+}
+
+h1{
+    color: #d8d8d8;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2{
+    color: #cecece;
+    font-weight: 300;
+}

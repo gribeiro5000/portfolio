@@ -1,0 +1,44 @@
+.FormControl {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #cecece;
+}
+
+.FormControl label{
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: solid 1px #cecece;
+    
+}
+
+.FormControl input {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #cecece;
+}
+
+.FormControl input::placeholder {
+    opacity: 0;
+}
+
+.FormControl span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(30px);
+    transition-duration: 0.3s;
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span{
+    transform: translateY(0px);
+}
+
+.FormControl input:focus::placeholder {
+    opacity: 1;
+}

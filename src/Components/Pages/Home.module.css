@@ -1,0 +1,20 @@
+.Container {
+    color: #cecece;
+    max-width: 280px;
+    animation: fadeIn ease 1s;
+}
+
+.Container h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Container p {
+    font-weight: 300;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
