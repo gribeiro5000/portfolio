@@ -13,7 +13,7 @@ import Style from './App.module.css'
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Container>
           <Navbar />
           <BodyContainer>
